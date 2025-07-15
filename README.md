@@ -52,8 +52,6 @@ This project aims to build a smart system that can **predict diseases** based on
 - Converted text to numerical vectors using TF-IDF with bi-grams.
 - Trained a **Multinomial Naive Bayes classifier**.
 - Achieved good performance in predicting diseases based on unseen test data.
-- Classification report and accuracy are printed during training.
-
 ---
 
 
