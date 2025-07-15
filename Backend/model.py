@@ -43,7 +43,7 @@ model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
-print("\n✅ Model Evaluation")
+print("\n Model Evaluation")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
@@ -69,14 +69,14 @@ def predict_disease(user_input):
             break
 
     if shown == 0:
-        print("⚠️ No strong prediction could be made. Please try rephrasing your symptoms.")
+        print(" No strong prediction could be made. Please try rephrasing your symptoms.")
 
     print("============================\n")
 
 # ------------------ Step 7: CLI for User Input ------------------
 
 while True:
-    user_input = input("\n💬 Enter your symptoms (or type 'exit' to quit):\n→ ")
+    user_input = input("\n Enter your symptoms (or type 'exit' to quit):\n→ ")
     if user_input.lower() == 'exit':
         break
     predict_disease(user_input)
