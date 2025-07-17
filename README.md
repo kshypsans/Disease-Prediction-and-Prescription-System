@@ -1,12 +1,5 @@
 # 🩺 SymptoCare
 
-### 👨‍💻 Team Members
-- Sanskriti (Me)
-- Priyanshi
-- Hasim
-
----
-
 ## 📌 Project Overview
 
 This project aims to build a smart system that can **predict diseases** based on user-inputted symptoms and provide **prescription suggestions**. By combining **Natural Language Processing (NLP)** and **Machine Learning**, we enable fast, efficient, and accessible medical insights using text-based symptom descriptions.
