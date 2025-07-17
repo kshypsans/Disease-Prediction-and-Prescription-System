@@ -1,4 +1,4 @@
-# 🩺 Disease Prediction and Prescription System
+# 🩺 SymptoCare
 
 ### 👨‍💻 Team Members
 - Sanskriti (Me)
